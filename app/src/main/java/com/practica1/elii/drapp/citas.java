@@ -22,6 +22,7 @@ public class citas extends AppCompatActivity {
         setContentView(R.layout.activity_citas);
 
         bfecha = (Button) findViewById(R.id.bfecha);
+        ediFecha = (EditText) findViewById(R.id.txtFecha);
     }
 
 

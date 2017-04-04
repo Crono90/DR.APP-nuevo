@@ -18,7 +18,8 @@
             android:layout_alignBottom="@+id/btncitas"
             android:layout_alignRight="@+id/btnanalisis"
             android:layout_alignEnd="@+id/btnanalisis"
-            android:id="@+id/btnexpediente" />
+            android:id="@+id/btnexpediente"
+            />
 
         <ImageButton
             android:layout_width="190dp"
@@ -28,7 +29,8 @@
             android:id="@+id/btnreceta"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:onClick="Onclick"/>
 
         <ImageButton
             android:layout_width="190dp"

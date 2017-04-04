@@ -32,7 +32,10 @@
         <activity android:name=".confirmar_datos" />
         <activity android:name=".expediente" />
         <activity android:name=".recuperar_contrasena" />
-        <activity android:name=".registrar"></activity>
+        <activity android:name=".registrar" />
+        <activity android:name=".citas" />
+        <activity android:name=".analisis" />
+        <activity android:name=".cancelacion"></activity>
     </application>
 
 </manifest>

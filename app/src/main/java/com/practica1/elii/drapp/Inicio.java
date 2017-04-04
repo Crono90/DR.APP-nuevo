@@ -24,7 +24,7 @@ public class Inicio extends AppCompatActivity {
                 String usuario = ((EditText) findViewById(R.id.txtcorreo)).getText().toString();
                 String contraseña = ((EditText) findViewById(R.id.txtcontraseña)).getText().toString();
                 if (usuario.equals("elizabeth@hotmail.com") && contraseña.equals("admin")){
-                    Intent nuevoform = new Intent(Inicio.this, Menu.class);
+                    Intent nuevoform = new Intent(Inicio.this, citas.class);
                     startActivity(nuevoform);
                 }
                 else{

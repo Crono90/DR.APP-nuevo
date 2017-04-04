@@ -18,6 +18,7 @@
             android:layout_alignBottom="@+id/btncitas"
             android:layout_alignRight="@+id/btnanalisis"
             android:layout_alignEnd="@+id/btnanalisis"
+            android:onClick="Expediente"/>
             android:id="@+id/btnexpediente"
             />
 

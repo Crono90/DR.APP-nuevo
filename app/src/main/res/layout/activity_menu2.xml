@@ -20,7 +20,9 @@
             android:layout_alignBottom="@+id/btncitas"
             android:layout_alignRight="@+id/btnanalisis"
             android:layout_alignEnd="@+id/btnanalisis"
-            android:id="@+id/btnexpediente"
+            android:onClick="Expediente"
+            android:id="@+id/imageButton4" />
+            android:id="@+id/imageButton3"
             />
 
         <ImageButton
@@ -39,10 +41,10 @@
             android:layout_height="200dp"
             app:srcCompat="@drawable/analisis"
             android:id="@+id/btnanalisis"
-            android:layout_above="@+id/btnexpediente"
+            android:onClick="Analisis"
+            android:layout_above="@+id/imageButton4"
             android:layout_alignParentRight="true"
-            android:onClick="Expediente"/>
-            android:onClick="Analisis"/>
+            android:layout_alignParentEnd="true" />
             android:layout_alignParentEnd="true" />
 
         <ImageButton

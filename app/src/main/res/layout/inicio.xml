@@ -53,6 +53,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="17dp"
         android:layout_marginEnd="17dp"
+        android:onClick="Registar"
         android:id="@+id/texto3" />
 
     <TextView
@@ -62,6 +63,7 @@
         android:layout_marginTop="13dp"
         android:id="@+id/texto4"
         android:layout_below="@+id/boton1"
+        android:onClick="Contraseña"
         android:layout_centerHorizontal="true" />
 
     <ImageView

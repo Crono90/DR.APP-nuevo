@@ -100,7 +100,7 @@
                             android:layout_gravity="center_horizontal"
                             android:background="#58FA82"
                             android:padding="5px"
-                            android:text="60 - 100 mg/dL (enzimÃ¡tico)"
+                            android:text="60 - 100 mg/dL (enzimático)"
                             android:textColor="#000"
                             android:textSize="16sp" />
                     </TableRow>
@@ -128,7 +128,7 @@
                             android:layout_gravity="center_horizontal"
                             android:background="#58FA82"
                             android:padding="5px"
-                            android:text="16 - 36 mg/dL (enzimÃ¡tico)"
+                            android:text="16 - 36 mg/dL (enzimático)"
                             android:textColor="#000"
                             android:textSize="16sp" />
                     </TableRow>
@@ -212,7 +212,7 @@
                             android:layout_gravity="center_horizontal"
                             android:background="#F4FA58"
                             android:padding="5px"
-                            android:text="150 - 200 mg/dL (ezimÃ¡tico)"
+                            android:text="150 - 200 mg/dL (ezimático)"
                             android:textColor="#000"
                             android:textSize="16sp" />
                     </TableRow>

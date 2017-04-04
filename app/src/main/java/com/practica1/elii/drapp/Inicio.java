@@ -24,7 +24,7 @@ public class Inicio extends AppCompatActivity {
                 String usuario = ((EditText) findViewById(R.id.txtcorreo)).getText().toString();
                 String contraseña = ((EditText) findViewById(R.id.txtcontraseña)).getText().toString();
                 if (usuario.equals("elizabeth@hotmail.com") && contraseña.equals("admin")){
-                    Intent nuevoform = new Intent(Inicio.this, citas.class);
+                    Intent nuevoform = new Intent(Inicio.this, menu2.class);
                     startActivity(nuevoform);
                 }
                 else{
@@ -34,6 +34,18 @@ public class Inicio extends AppCompatActivity {
         });
 
 
+    }
+
+    public void Registar (View view) {
+        Intent explicit_intent;
+        explicit_intent = new Intent(this, registrar.class);
+        startActivity(explicit_intent);
+    }
+
+    public void Contraseña (View view) {
+        Intent explicit_intent;
+        explicit_intent = new Intent(this, recuperar_contrasena.class);
+        startActivity(explicit_intent);
     }
 
 }
